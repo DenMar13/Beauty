@@ -1,0 +1,315 @@
+body {
+    background-color: #EFEFEF;
+    font-family: 'Roboto', sans-serif;
+    color: #333333;
+    font-size: 14px;
+    padding-top: 0px;
+}
+.wrapper {
+    max-width: 1110px;
+    padding-left: 15px;
+    padding-right: 15px;
+    /*border: 1px dotted red;*/
+    margin: 0 auto;
+}
+.header {
+    background-color: #FFFFFF;
+}
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px;
+}
+.nav {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    padding: 0;
+}
+.nav > li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.nav > li > a {
+    text-decoration: none;
+    color: #333333;
+}
+.logo {
+    display: flex;
+    color: #66C05D;
+    font-size: 36px;
+    font-weight: 700;
+    align-items: center;
+    letter-spacing: 4px;
+}
+.logo-image {
+    display: block;
+    height: 80px;
+    width: 80px;
+    background-image: url("../img/logo.svg");
+    margin-right: 10px;
+}
+.header-info span {
+    font-size: 16px;
+}
+.header-info button {
+    width: 170px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid #66C05D;
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 10px 15px;
+    margin-left: 20px;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+.header-info button:hover {
+    background-color: #66C05D;
+    color: #FFFFFF;
+}
+.header-bottom {
+    padding: 20px 0;
+}
+.header-bottom .nav {
+    font-size: 16px;
+    margin: 0;
+}
+hr {
+    border: none;
+    height: 1px;
+    background-color: #EFEFEF;
+}
+.banner {
+    background-image: url("../img/bground.png");
+    padding-top: 160px;
+    padding-bottom: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #FFFFFF;
+    z-index: 1;
+}
+.title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 42px;
+}
+.banner p {
+    width: 308px;
+    margin-bottom: 52px;
+    line-height: 20px;
+}
+.btn {
+    display: block;
+    width: 150px;
+    height: 20px;
+    text-decoration: none;
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 25px;
+    transition: 0.4s ease;
+}
+.btn:hover {
+    background-color: #FFFFFF;
+    color: #66C05D;
+}
+.catalog {
+    margin-top: 80px;
+    margin-bottom: 132px;
+}
+.bg-white {
+    background-color: #FFFFFF;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0px 30px;
+}
+.grid-item-title {
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+.title-h2 {
+    font-size: 24px;
+    font-weight: 700;  
+}
+.grid-item-img {
+    grid-column: 4/5;
+    grid-row: 1/2;
+    text-align: center;
+}
+.grid-item-left {
+    grid-column: 1/3;
+    grid-row: 3/4;
+    margin-top: 100px;
+}
+.grid-item-right {
+    grid-column: 3/5;
+    grid-row: 3/4;
+    margin-top: 100px;
+}
+.bg-green {
+    display: flex;
+    background-color: #66C05D;
+    color: #FFFFFF;
+    padding: 35px 45px 35px 40px;
+    justify-content: space-between;
+}
+.bg-green-item {
+    flex: 0 0 60%;
+}
+.bg-green-item-img {
+    flex: 0 0 31%;
+    text-align: center;
+    align-self: center;
+}
+.bg-green h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+.bg-green p {
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+.bg-green input {
+    width: 175px;
+    height: 15px;
+    font-size: 14px;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 10px 25px;
+}
+.bg-green .btn {
+    display: block;
+    text-align: center;
+    width: 170px;
+    border-radius: 30px;
+    padding: 7px 0;
+}
+.grid-item-catalog {
+    text-align: center;
+    justify-content: center;
+}
+.grid-item-catalog .bg-white {
+    padding: 25px 30px 34px 30px;
+}
+.thumb {
+    margin-bottom: 20px;
+}
+.grid-title {
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.grid-price {
+    font-size: 21px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 29px;
+}
+.grid-btn {
+    background-color: #66C05D;
+    border: 2px solid #66C05D;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 9px 40px;
+    transition: 0.4s ease;
+}
+.grid-btn:hover {
+    background-color: #FFFFFF;
+    color: #66C05D;
+}
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+.footer-bottom p {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 400;
+    color: #828282;
+}
+.footer-bottom a {
+    font-size: 12px;
+    font-weight: 400;
+    color: #828282;
+    text-decoration: none;
+}
+.footer-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.footer-top-item {
+    display: flex;
+    flex-direction: row;
+}
+.footer-info {
+    display: flex;
+    align-items: center;
+}
+.footer-info span {
+    font-size: 16px;
+    margin-left: 105px;
+}
+.footer-info button {
+    width: 170px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid #66C05D;
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 10px 15px;
+    margin-left: 20px;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+.footer-info button:hover {
+    background-color: #66C05D;
+    color: #FFFFFF;
+}
+.footer-info span:first-child {
+    font-size: 14px;
+    margin-left: 0;
+}
+.social-link {
+    border: 2px solid  #66C05D;
+    display: block;
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.social-item {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding-left: 0;
+    margin-right: 20px;
+}
+.socil-youtube {
+    background-image: url("../img/YT.svg");
+}
+.socil-vk {
+    background-image: url("../img/VK.svg");
+}
+.socil-fb {
+    background-image: url("../img/Facebook.svg");
+}
+.socil-instagram {
+    background-image: url("../img/Instagram.svg");
+}
